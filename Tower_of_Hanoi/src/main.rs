@@ -58,7 +58,7 @@ fn TOH( src: &mut Vec<u8>, dst: &mut Vec<u8>, aux: &mut Vec<u8>, count:u8 ) -> u
 
 fn main() {
   // Just fucking about here, so set n=5. Set up argparse later.
-  let num_rings = 30;
+  let num_rings = 5;
 
   // Setup inital vectors
   let (mut tow1, mut tow2, mut tow3) = init_towers( num_rings );
